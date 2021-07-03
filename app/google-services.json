@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "429968798298",
+    "firebase_url": "https://human-safety-ad970-default-rtdb.firebaseio.com",
+    "project_id": "human-safety-ad970",
+    "storage_bucket": "human-safety-ad970.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429968798298:android:04c53a4ac1f660838a5e63",
+        "android_client_info": {
+          "package_name": "com.example.humansafety"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "429968798298-jradege8vbdqncokdvq0haqpbfrk2geo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjpG8w7yrYMDbq9l7H8Ms2OEkzJaYqsBk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "429968798298-jradege8vbdqncokdvq0haqpbfrk2geo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

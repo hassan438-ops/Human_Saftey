@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_2"
+
+    tools:context=".Simple_User.Default">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/AR_iv_police"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/prof"
+                        android:layout_marginTop="40dp"
+                        android:layout_gravity="end"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginRight="30dp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Human Safety"
+                        android:layout_gravity="start"
+                        android:layout_marginTop="40dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="--Yes We Care"
+                        android:layout_gravity="start"
+                        android:layout_marginTop="80dp"
+                        android:layout_marginLeft="60dp"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"/>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:weightSum="2">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="160dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_weight="1"
+                    android:id="@+id/Alert_user_btn"
+                    >
+
+                    <ImageView
+                        android:id="@+id/AR_iv_ambulance"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/police"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Alert"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="120dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="160dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_weight="1"
+                    android:id="@+id/Harrasment_user_btn"
+                    >
+
+                    <ImageView
+                        android:id="@+id/AR_iv_firebrigade"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/fire_bargade_logo"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Harrasment"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="120dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"/>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:weightSum="2">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="160dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_weight="1"
+                    android:id="@+id/Missing_user_btn"
+
+                    >
+
+                    <ImageView
+                        android:id="@+id/AR_iv_traffic_police"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/missingchild"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Missing Child"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="120dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="160dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_weight="1"
+                    android:id="@+id/Rescue_user_btn"
+
+                    >
+
+                    <ImageView
+                        android:id="@+id/AR_iv_motorway_police"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/rescue1122"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rescue"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="120dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"/>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:weightSum="2">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="160dp"
+                    app:cardCornerRadius="10dp"
+                    android:id="@+id/Missing_Children_user_btn"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/AR_iv_ambulance2"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/exploit"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Missing Detail"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="120dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="160dp"
+                    app:cardCornerRadius="10dp"
+                    android:id="@+id/Feedback_user_btn"
+
+                    app:cardBackgroundColor="@android:color/transparent"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/AR_iv_firebrigade2"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/feedback"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Feedback"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="120dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"/>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

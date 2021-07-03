@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_2"
+
+    tools:context=".RescuePanel.Rescue_Default">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:weightSum="2">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="160dp"
+            app:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            android:id="@+id/RD_PCSW">
+
+            <ImageView
+                android:id="@+id/AR_iv_ambul1ance1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/pcsw2"/>
+
+            <TextView
+                android:id="@+id/AAP_PCSW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PCSW"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="120dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="160dp"
+            app:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            android:id="@+id/RD_Harrassment">
+
+            <ImageView
+                android:id="@+id/AR_iv_firebrig2ade"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/fire_bargade_logo"/>
+
+            <TextView
+                android:id="@+id/AAP_harrasment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Harrasment"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="120dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:weightSum="2">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="160dp"
+            app:cardCornerRadius="10dp"
+            android:id="@+id/RD_MC"
+            app:cardBackgroundColor="@android:color/transparent"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/AR_iv_ambulance"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/missingchild"/>
+
+            <TextView
+                android:id="@+id/AAP_missing_chlidren"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Missing Chlidren"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="120dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="160dp"
+            app:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            android:id="@+id/RD_15">
+
+            <ImageView
+                android:id="@+id/AR_iv_firebrigade"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/police"/>
+
+            <TextView
+                android:id="@+id/AAP_police"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Policee"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="120dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:weightSum="2">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_weight="1"
+        android:id="@+id/RD_Resc">
+
+    <ImageView
+        android:id="@+id/AR_iv_ambulane"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/rescue1122"/>
+        <TextView
+            android:id="@+id/AAP_alert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rescue 1122"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="120dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="160dp"
+            app:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            android:id="@+id/RD_MT">
+
+            <ImageView
+                android:id="@+id/AR_iv_firebrigad"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+
+                android:src="@drawable/motorway_police_icon"/>
+
+            <TextView
+                android:id="@+id/AAP_motorway_highway"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Motorway"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="120dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

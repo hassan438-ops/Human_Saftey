@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.humansafety">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+
+        android:theme="@style/Theme.HumanSafety">
+        <activity android:name=".RescuePanel.Harrassment_Notify"></activity>
+        <activity android:name=".FBAuthActivity" />
+        <activity android:name=".RescuePanel.Missing_Child_Recycler" />
+        <activity android:name=".RescuePanel.Rescue_login" />
+        <activity android:name=".RescuePanel.Rescue_Notify" />
+        <activity android:name=".RescuePanel.PCSW_Notify" />
+        <activity android:name=".RescuePanel.Alert_15_Notify" />
+        <activity android:name=".RescuePanel.Highway_Notify" />
+        <activity android:name=".RescuePanel.Motoway_Notify" />
+        <activity android:name=".RescuePanel.Rescue_Default" />
+        <activity android:name=".Simple_User.Harrassment" />
+        <activity android:name=".Simple_User.Rescue" />
+        <activity android:name=".Simple_User.MissingChild" />
+        <activity android:name=".Simple_User.Feedback" />
+        <activity android:name=".Simple_User.Alert" />
+        <activity android:name=".Simple_User.Default" />
+        <activity android:name=".Simple_User.Registration" />
+        <activity android:name=".Simple_User.Login">
+
+        </activity>
+        <activity android:name=".Simple_User.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+    </application>
+
+</manifest>
